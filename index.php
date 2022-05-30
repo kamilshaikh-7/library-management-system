@@ -24,7 +24,7 @@
                     <h1>Desktop</h1>
                 </div>
                 <div class="icons">
-                    <a href="student_mobile/books.php"><i class="fa-solid fa-mobile-screen dev-icon2"></i></a>
+                    <a href="student_mobile/main.php"><i class="fa-solid fa-mobile-screen dev-icon2"></i></a>
                     <h1>Mobile</h1>
                 </div>
             </div>

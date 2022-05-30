@@ -113,7 +113,7 @@
     }
     
     .navbar-links ul li:hover{
-        background-color: rgba(0, 0, 0, 0.175);
+        background-color: rgba(180, 138, 138, 0.175);
     }
     
     .navbar-links ul li a {
@@ -231,7 +231,7 @@
     background-color: rgba(0, 0, 0, 0.538);
     padding: 2rem 5rem;
     position: absolute;
-    top: 70%;
+    top: 77%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 1rem;
@@ -326,13 +326,13 @@
     font-size: 2rem;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.464);
-    padding: 3rem;
+    padding: 2rem;
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 1rem;
-    width: 75%;
+    width: 85%;
     /* max-height: 80%;  */
     max-height: auto;
     /* margin-bottom: 8rem; */

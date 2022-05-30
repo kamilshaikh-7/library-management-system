@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DCMS Library Management System</title>
+    <title>Login to Library</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -28,6 +28,9 @@
         <div class="logo">
             <img src="../images/logo.png" alt="">
             <div class="brand-title">DCMS LIBRARY MANAGEMENT SYSTEM</div>
+            <div style="background-color:black;">
+            <h6 style="color:white; font-size:.7rem;padding:7px; padding-left:20px; text-align:center; margin:0;">Developed by Kamil Shaikh, Maulana Azad College, Aurangabad</h6>
+            </div>
         </div>
         <a href="#" class="toggle-button">
             <span class="bar"></span>

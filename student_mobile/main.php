@@ -38,6 +38,9 @@
                 echo "Welcome ".$_SESSION['login_user'];
             }
             ?>
+            <div style="background-color:black;">
+            <h6 style="color:white; font-size:.7rem;padding:7px; padding-left:20px; text-align:center; margin:0;">Developed by Kamil Shaikh, Maulana Azad College, Aurangabad</h6>
+            </div>
         </div>
         <a href="#" class="toggle-button">
             <span class="bar"></span>
