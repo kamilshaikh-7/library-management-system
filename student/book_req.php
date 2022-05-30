@@ -119,7 +119,7 @@
                         <form action="" method="post">
                         <?php
                         echo "<table class='table table-bordered' >";
-                        echo "<tr  class='scroll-tr' style='background-color: #35cf35c7; text-align:center; color:white;'>";
+                        echo "<tr  class='scroll-tr' style='background-color: #CF8D5B; text-align:center; color:white;'>";
                         //Table header
                         // echo "<th>"; echo "Select";    echo "</th>";
                         echo "<th>"; echo "Book ID";    echo "</th>";

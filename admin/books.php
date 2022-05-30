@@ -136,7 +136,7 @@
                         }
                         else{
                             echo "<table class='table table-bordered' style='color:white; margin-top:40px;'>";
-                            echo "<tr class='scroll-tr' style='background-color: #35cf35c7; width:98%'>";
+                            echo "<tr class='scroll-tr' style='background-color: #CF8D5B; width:98%'>";
                             //Table header
                             echo "<th>"; echo "ID";	echo "</th>";
                             echo "<th>"; echo "Book-Name";  echo "</th>";
@@ -171,7 +171,7 @@
                         <form action="" method="post">
                         <?php
                         echo "<table class='table table-bordered' style='margin-top:40px' >";
-                            echo "<tr class='scroll-tr' style='color:white; background-color: #35cf35c7; width:98%'>";
+                            echo "<tr class='scroll-tr' style='color:white; background-color: #CF8D5B; width:98%'>";
                             //Table header
                                 echo "<th>"; echo "Select";    echo "</th>";
                                 echo "<th>"; echo "ID";	echo "</th>";

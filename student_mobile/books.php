@@ -86,7 +86,7 @@
                         else{
                             echo "<div class='scroll-books'>";
                             echo "<table class='table table-bordered' style='color:white; margin-top:2%;'>";
-                                echo "<tr style='background-color: #35cf35c7;'>";
+                                echo "<tr style='background-color: #CF8D5B;'>";
                                     //Table header
                                     echo "<th>"; echo "ID";	echo "</th>";
                                     echo "<th>"; echo "Book-Name";  echo "</th>";
@@ -111,7 +111,7 @@
 
                         echo "<div class='scroll-books''>";
                         echo "<table class='table table-bordered' style='color:white; margin-top:2%' >";
-                        echo "<tr style='color:white; background-color: #35cf35c7;'>";
+                        echo "<tr style='color:white; background-color: #CF8D5B;'>";
                                 //Table header
                                 echo "<th>"; echo "ID";	echo "</th>";
                                 echo "<th >"; echo "Book-Name";  echo "</th>";

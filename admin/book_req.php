@@ -121,7 +121,7 @@
                     }
                     else{
                         echo "<table class='table table-bordered' style='color:white; margin-top:20px' >";
-                            echo "<tr class='scroll-tr' style='background-color: #35cf35c7; text-align:center; width:98%'>";
+                            echo "<tr class='scroll-tr' style='background-color: #CF8D5B; text-align:center; width:98%'>";
                                 //Table header
                                 echo "<th>"; echo "User Name";    echo "</th>";
                                 echo "<th>"; echo "Class";    echo "</th>";
