@@ -1,0 +1,339 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    margin: 0;
+    padding: 0;
+} */
+
+.navbar1 {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: .5rem;
+}
+.logo{
+    width:100%;
+}
+.logo img{
+    width: 4.8rem;
+}
+.brand-title {
+    font-size: 1.2rem;
+    margin: .7rem;
+    display: inline;
+}
+
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 970px) {
+    .logo {
+        text-align: center;
+    }
+    .navbar1 {
+        flex-direction: column;
+        align-items: flex-start;
+        z-index: 100;
+    }
+    .brand-title {
+        display: block;
+    }
+    
+    .toggle-button {
+        display: flex;
+    }
+    
+    .navbar-links {
+        /* display: none; */
+        /* padding: 8px 0px 8px 80px; */
+        width: 100%;
+        margin: 0;
+        visibility: hidden;
+        opacity: 0;
+        max-height: 0;
+        transition: all 1s;
+    }
+    
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    
+    .navbar-links ul li {
+        text-align: center;
+    }
+    
+    .navbar-links ul li:hover{
+        background-color: rgba(0, 0, 0, 0.175);
+    }
+    
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+    
+    .navbar-links.active {
+        /* display: flex;
+        transition: 3s ease-in-out; */
+        max-height: 100rem;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo img{
+        width: 4rem;
+    }
+}
+
+/* ************ Footer    ************** */
+
+.footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    /* font-size: 1rem; */
+    padding: 1.5rem;
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+    /* flex: 0; */
+}
+
+/* ************ Main  ************* */
+
+.container1-main{
+    height: 100%;
+    background: url("../images/bgm.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.box-main{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.441);
+    border: .15rem solid white;
+    padding: 1rem;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1rem;
+    width: 80%;
+    height: auto;
+}
+
+/* ************  Books   **************** */
+
+.container1-books{
+    /* height: 100%; */
+    background: url("../images/books5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.box-books{
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.718);
+    padding: 3rem;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1rem;
+    width: 100%;
+    /* max-height: 80%;  */
+    max-height: auto;
+    /* margin-bottom: 8rem; */
+}
+.scroll-books {
+    width: 100%;
+    max-height: 25rem;
+    overflow: auto;
+}
+
+/* ************ Register  ************* */
+
+.container1-reg{
+    display: flex;
+    align-items: stretch;
+    /* height: 100vh; */
+    background: url("../images/join\ us.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100%;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.box-reg{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.538);
+    padding: 2rem 5rem;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1rem;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.form-control{
+    height: 1.8rem;
+}
+
+
+/* ************ Login  ************* */
+
+.container1-log{
+    height: 100%;
+    background: url("../images/login3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.box-log{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.593);
+    padding: 2rem 4rem;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1rem;
+    width: 100%;
+    height: auto;
+}
+.forgotpass{
+    float: left;
+    text-decoration: none;
+}
+
+/* ************  Book Req   **************** */
+
+.container1-book_req{
+    /* height: 100%; */
+    background: url("../images/books5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.box-book_req{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.758);
+    padding: 2rem;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1rem;
+    width: 100%;
+    /* max-height: 80%;  */
+    max-height: auto;
+    /* margin-bottom: 8rem; */
+}
+.scroll-book_req {
+    width: 100%;
+    max-height: 32rem;
+    overflow: auto;
+}
+
+
+/* ************  Update password   **************** */
+
+.container1-upd{
+    /* height: 100%; */
+    background: url("../images/forget.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    filter: blur(1.4px);
+    -webkit-filter: blur(1.4px);
+    opacity: 0.97;
+}
+.box-upd{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.464);
+    padding: 3rem;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1rem;
+    width: 75%;
+    /* max-height: 80%;  */
+    max-height: auto;
+    /* margin-bottom: 8rem; */
+}
