@@ -92,9 +92,9 @@
 
     <?php
 
-    if(isset($_POST['submit'])){
+        if(isset($_POST['submit'])){
             $count = 0;
-            $sql = 'SELECT userName,email,password FROM `STUDENT`';
+            $sql = 'SELECT userName,email,password FROM `student`';
             $res = mysqli_query($db,$sql);
 
             while($row=mysqli_fetch_assoc($res)){
@@ -103,8 +103,8 @@
                 }
             }
             if($count==0){
-            mysqli_query($db, "INSERT INTO `STUDENT` VALUES('$_POST[stud_name]', '$_POST[userName]', '$_POST[class]',
-            '$_POST[year]', '$_POST[roll]', '$_POST[email]', '$_POST[phone]', '$_POST[password]','p.jpg')");
+            mysqli_query($db, "INSERT INTO `student` VALUES('$_POST[stud_name]', '$_POST[userName]', '$_POST[class]',
+            '$_POST[year]', '$_POST[roll]', '$_POST[email]', '$_POST[phone]', '$_POST[password]')");
 
             ?>
             <script type="text/javascript">
