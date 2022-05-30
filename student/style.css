@@ -289,7 +289,7 @@ footer h5 {
   background: linear-gradient(rgba(0, 0, 0, 0.071), rgba(0, 0, 0, 0.663));
   height: auto;
   width: 400px;
-  top: 10px;
+  top: 0;
 }
 .register-form input {
   /* height: 30px; */
@@ -355,7 +355,7 @@ footer h5 {
 
 .profile-wrapper {
   width: 600px;
-  height: 670px;
+  height: 630px;
   margin: 0 auto;
   background: linear-gradient(rgba(0, 0, 0, 0.234), rgba(0, 0, 0, 0.738));
   color: rgb(255, 255, 255);

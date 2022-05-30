@@ -173,7 +173,7 @@
                 <a href="https://www.gmail.com"><i class="fa-solid fa-envelope footer-icons"></i></a>
 
                 <h5>Email: com.dept.mac@gmail.com</h5>
-                <h5>Mobile: +91 9827******</h5>
+                <span></span>
                 <h5 style="color:white">Address: Dr. Rafiq Zakaria Marg,<br> Rauza Bagh, Aurangabad 431 001, Maharashtra, India.</h5>
             </div>
         </footer>
