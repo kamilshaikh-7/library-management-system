@@ -100,7 +100,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 15rem 29rem;
+  margin: 14rem 29rem;  
 }
 .icons {
   color: white;
@@ -118,6 +118,19 @@ body {
 }
 .dev-icon2 {
   margin-left: 0.4rem;
+}
+
+/********************* FOOTER*************************** */
+.footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    /* font-size: 1rem; */
+    padding: 1.5rem;
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+    /* flex: 0; */
 }
 
 /* **************   MEDIA QUERY    ************** */
@@ -171,9 +184,24 @@ body {
   .icon-list h1 {
     font-size: 1.7rem;
   }
+  /********************* FOOTER*************************** */
+  .footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    /* font-size: 1rem; */
+    padding: 1.5rem;
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+    /* flex: 0; */
+  }
 }
 
 @media (max-width: 600px) {
+  .background-image{
+    height:100%;
+  }
   .icon-list {
     margin: 30% auto;
     flex-direction: column;
@@ -183,6 +211,19 @@ body {
   }
   .icon-list h1 {
     font-size: 1.5rem;
+  }
+  
+  /********************* FOOTER*************************** */
+  .footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    /* font-size: 1rem; */
+    padding: 1.5rem;
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+    /* flex: 0; */
   }
 }
 

@@ -193,7 +193,7 @@
     background-color: rgba(0, 0, 0, 0.718);
     padding: 3rem;
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 1rem;
@@ -219,7 +219,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    min-height: 100%;
+    min-height: 130%;
     flex-direction: column;
     flex-grow: 1;
     flex-shrink: 0;
@@ -231,7 +231,7 @@
     background-color: rgba(0, 0, 0, 0.538);
     padding: 2rem 5rem;
     position: absolute;
-    top: 77%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 1rem;
@@ -261,7 +261,7 @@
     background-color: rgba(0, 0, 0, 0.593);
     padding: 2rem 4rem;
     position: absolute;
-    top: 70%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 1rem;

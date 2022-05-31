@@ -52,7 +52,7 @@
         <div class="box-reg">
 
             <div class="log-box register-box">
-                <h3 style="text-align: center;">Register and Join us now!</h3>
+                <h3 style="text-align: center; padding-top:2rem; padding-bottom:1.6rem; line-height:2.5rem;">Register and <br> Join us now!</h3>
                 <form name="login" action="" method="post"><br>
                     <div class="login-form register-form">
                         <input class="form-control" type="text" name="stud_name" placeholder="Student Name" required><br>

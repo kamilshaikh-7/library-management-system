@@ -58,20 +58,6 @@
 
     <div class="container1-books">
 
-            <!-- --------------- SEARCH BAR  -------------------- -->
-            <div style="margin-left:19%;padding-top:12%">
-                <form class="navbar-form" id="book-form" action="" name="form1" method="post">
-                    <input class="form-control" type="text" name="search" id="" placeholder="Search books"
-                        style="width:10rem;height:2rem;display:inline;">
-                    <button type="submit" name="submit" class="btn btn-primary"
-                        style="font-size:.9rem;margin-top:-5px;margin:.5rem"><i
-                            class="fa-solid fa-magnifying-glass"></i></button>
-                    <input class="form-control" type="text" name="b_id" id="" placeholder="Enter Book id"
-                        style="width:10rem;height:2rem;display:inline;">
-                    <button type="submit" name="submitReq" class="btn btn-primary"
-                        style="font-size:.9rem;margin-top:-5px;margin-left:.5rem">Request Book</button>
-                </form><br>
-            </div>
 
             <div class="box-books">
                 <?php
@@ -131,7 +117,22 @@
                         echo "</table>";
                         echo "</div>";	 
                     }
-
+                ?>
+            <!-- --------------- SEARCH BAR  -------------------- -->
+            <div style="margin-top:12%">
+                <form class="navbar-form" id="book-form" action="" name="form1" method="post">
+                    <input class="form-control" type="text" name="search" id="" placeholder="Search books"
+                        style="width:10rem;height:2rem;display:inline; float:left;">
+                    <button type="submit" name="submit" class="btn btn-primary"
+                        style="font-size:.6rem; margin-bottom:.8rem; margin-left:.7rem; float:left"><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                    <input class="form-control" type="text" name="b_id" id="" placeholder="Enter Book id"
+                        style="width:10rem;height:2rem;display:inline;">
+                    <button type="submit" name="submitReq" class="btn btn-primary"
+                        style="font-size:.9rem;margin-top:-5px;margin-left:.5rem">Request Book</button>
+                </form><br>
+            </div>
+            <?php
             // Book Request PHP Code
 
             if(isset($_POST['submitReq'])){

@@ -74,8 +74,8 @@
         <div class="box-main">
             <h3>Welcome to the library</h3>
             <div class="time" style="margin-top:2rem">
-                <h4>Opening time: 9AM</h4>
-                <h4>Closing time: 4AM</h4>
+                <h4>Opening time: 9am</h4>
+                <h4>Closing time: 4pm</h4>
             </div>
         </div>
 

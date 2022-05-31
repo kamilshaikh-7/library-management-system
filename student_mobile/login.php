@@ -91,9 +91,12 @@
                 
             if($count==0){
             ?>
-                <div class="alert alert-danger" style="position:absolute; top:135px; color: white; background-color: red; width: 500px; margin-left: 530px">
+                <div class="alert alert-danger" style="position:absolute; top:9.7rem; color: white; background-color: red; width: 85%; margin-left:1.8rem; text-align:center;">
                     <strong>This username or password does not exist. Please try again</strong>
                 </div>
+                <!--<script>
+                    alert("This username or password does not exist. Please try again");
+                </script>-->
             <?php
                 }
             else{

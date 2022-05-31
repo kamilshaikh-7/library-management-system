@@ -18,17 +18,29 @@
     <div class="background-image">
     </div>
         <!-- <div class="container1"> -->
+            <!--<h5 style="text-align:center; color:white; padding:2rem; margin-bottom:0; padding-bottom:0;">Use of Desktop is recommended for better interface experience</h5>-->
             <div class="icon-list">
-                <div class="icons">
-                    <a href="main.php"><i class="fa-solid fa-display dev-icon1"></i></a>
-                    <h1>Desktop</h1>
-                </div>
                 <div class="icons">
                     <a href="student_mobile/main.php"><i class="fa-solid fa-mobile-screen dev-icon2"></i></a>
                     <h1>Mobile</h1>
                 </div>
+                <div class="icons">
+                    <a href="main.php"><i class="fa-solid fa-display dev-icon1"></i></a>
+                    <h1>Desktop</h1>
+                </div>
             </div>
         <!-- </div> -->
+
+    <footer class="footer">
+        <div class="containerF">
+            <h5 style="display:inline;padding-right:10px">Contact us</h5>
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook footer-icons"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram footer-icons"></i></a>
+            <a href="https://www.gmail.com"><i class="fa-solid fa-envelope footer-icons"></i></a>
+            <h6>Email: com.dept.mac@gmail.com</h6>
+            <h6>Address: Maulana Azad College, Dr. Rafiq Zakaria Marg, Rauza Bagh, Aurangabad <br> 431 001, Maharashtra, India.</h6>
+        </div>
+    </footer>
         
 </body>
 </html>

@@ -139,8 +139,8 @@
             <div class="box"><br><br><br>
                 <h3>Welcome to the library</h3><br>
                 <div class="time">
-                    <h4>Opening time: <b>9AM</b></h4>
-                    <h4>Closing time: <b>4AM</b></h4>
+                    <h4>Opening time: <b>9am</b></h4>
+                    <h4>Closing time: <b>4pm</b></h4>
                 </div>
             </div>
         </section>

@@ -120,11 +120,12 @@
                 $q = mysqli_query($db,"SELECT stud_name,userName,class,year,roll,email,phone FROM `student` WHERE stud_name like '%$_POST[search]%' ORDER BY `class` ASC");
 
                 if(mysqli_num_rows($q)==0){
-                    echo "NO STUDENT FOUND WITH THAT USERNAME!";
+                    echo "<br><br>NO STUDENT FOUND WITH THAT USERNAME!";
                 }
                 else{
+                    echo "<div class='scroll' style='width:101%'>";
                     echo "<table class='table table-bordered' style='margin-top:40px' >";
-                            echo "<tr class='scroll-tr' style='color:white; background-color: #35cf35c7; width:98%'>";
+                            echo "<tr style='color:white; background-color: #CF8D5B; width:98%'>";
                             //Table header
                             echo "<th>"; echo "Student name";	echo "</th>";
                             echo "<th>"; echo "User Name";  echo "</th>";
@@ -134,14 +135,13 @@
                             echo "<th>"; echo "Email id";  echo "</th>";
                             echo "<th>"; echo "Phone";  echo "</th>";
                         echo "</tr>";	
-                    echo "</table>";
+                    // echo "</table>";
 
-                    echo "<div class='scroll' style='width:101%'>";
-                        echo "<table class='table table-bordered' style='margin-top:10px' >";
+                        // echo "<table class='table table-bordered' style='margin-top:10px' >";
 
 	        	        while($row = mysqli_fetch_assoc($q))
 	        	        {
-                            echo "<tr class='scroll-tr'>";
+                            echo "<tr>";
                                 echo "<td>"; echo $row['stud_name']; echo "</td>";
                                 echo "<td>"; echo $row['userName']; echo "</td>";
                                 echo "<td>"; echo $row['class']; echo "</td>";
@@ -160,8 +160,9 @@
                 ?>
                     <form action="" method="post">
                 <?php
+                echo "<div class='scroll' style='width:101%'>";
                 echo "<table class='table table-bordered' style='margin-top:40px' >";
-                        echo "<tr class='scroll-tr' style='color:white; background-color: #35cf35c7; width:98%'>";
+                        echo "<tr style='color:white; background-color: #CF8D5B; width:98%'>";
                         //Table header
                         echo "<th>"; echo "Select";    echo "</th>";
                         echo "<th>"; echo "Student name";	echo "</th>";
@@ -172,13 +173,12 @@
                         echo "<th>"; echo "Email id";  echo "</th>";
                         echo "<th>"; echo "Phone";  echo "</th>";
                     echo "</tr>";	
-                echo "</table>";
+                // echo "</table>";
 
-                echo "<div class='scroll' style='width:101%'>";
-                    echo "<table class='table table-bordered' style='margin-top:10px' >";
+                    // echo "<table class='table table-bordered' style='margin-top:10px' >";
 	        	while($row=mysqli_fetch_assoc($res))
 	        	{
-                    echo "<tr class='scroll-tr'>";
+                    echo "<tr>";
                         ?>
                         <td><input type="checkbox" name="check[]" value="<?php echo $row['userName'] ?>"></td>
                         <?php

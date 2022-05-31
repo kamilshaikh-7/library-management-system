@@ -62,7 +62,6 @@
 
     <div class="container1-book_req">
         <div class="box-book_req">
-
             <!-- Show Request Book table PHP Code -->
             <?php
 
@@ -137,6 +136,7 @@
             <?php
     }
     ?>
+        <h6 style="font-size:0.9rem">*books approved by admin are marked with Yes</h6>
 </div>
     </div>
 
